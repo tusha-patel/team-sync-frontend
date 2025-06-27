@@ -17,9 +17,7 @@ import {
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -103,8 +101,6 @@ const Asidebar = () => {
                     align="start"
                     sideOffset={4}
                   >
-                    <DropdownMenuGroup></DropdownMenuGroup>
-                    <DropdownMenuSeparator />
                     <DropdownMenuItem onClick={() => setIsOpen(true)}>
                       <LogOut />
                       Log out
