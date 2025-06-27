@@ -14,6 +14,9 @@ const GoogleOAuthFailure = () => {
   const accessToken = params.get('access_token');
   const currentWorkspace = params.get("current_workspace");
 
+  console.log(accessToken);
+
+  console.log(currentWorkspace);
 
   useEffect(() => {
     if (accessToken) {

@@ -32,8 +32,8 @@ const LogoutDialog = (props: {
         queryKey: ['authUser']
       });
       clearAccessToken();
-      location.reload()
       navigate("/")
+      location.reload()
       setIsOpen(false);
     },
     onError: (error) => {
